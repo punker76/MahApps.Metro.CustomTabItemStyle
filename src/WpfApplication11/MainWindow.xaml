@@ -14,7 +14,7 @@
             <ResourceDictionary Source="/Resources/CustomTabItem.xaml" />
         </Grid.Resources>
 
-        <TabControl controls:TabControlHelper.Underlined="TabPanel" TabStripPlacement="Left">
+        <TabControl controls:TabControlHelper.Underlined="None" TabStripPlacement="Left">
             <TabItem Content="{Binding RelativeSource={RelativeSource Self}, Path=Header}" Header="Preflight">
                 <TabItem.HeaderTemplate>
                     <DataTemplate>
