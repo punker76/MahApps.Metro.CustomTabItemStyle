@@ -9,7 +9,7 @@
 
     <!--  custom TabItem Style inherited from base style  -->
     <Style BasedOn="{StaticResource MetroTabItem}" TargetType="{x:Type TabItem}">
-        <Setter Property="Padding" Value="2 1" />
+        <Setter Property="Padding" Value="2 0 2 1" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="TabItem">
